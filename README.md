@@ -19,5 +19,19 @@ These datasets include four medium-scale datasets. Please download them from pyt
 You can download Ogb datasets [Ogbn](https://ogb.stanford.edu/docs/nodeprop/)
 
 ---
+## Citation
 
+If you find this work useful in your research, please cite:
+
+```bibtex
+@inproceedings{FAGEL,
+  title={FAGEL: Fast and Accurate Graph Ensemble Learning using Staged Training and Diversified Sampling},
+  author={Jiajun Shen and Yufei Jin and Xingquan Zhu},
+  booktitle={European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD)},
+  year      = {2026},
+  publisher = {Springer},
+  series    = {Lecture Notes in Artificial Intelligence},
+  address   = {Naples, Italy}
+}
+```
 If you encounter any issues, please feel free to reach out to me at jshen2024@fau.edu.
