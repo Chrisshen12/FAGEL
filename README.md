@@ -30,7 +30,6 @@ If you find this work useful in your research, please cite:
   booktitle={European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD)},
   year      = {2026},
   publisher = {Springer},
-  series    = {Lecture Notes in Artificial Intelligence},
   address   = {Naples, Italy}
 }
 ```
