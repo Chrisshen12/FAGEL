@@ -25,9 +25,9 @@ If you find this work useful in your research, please cite:
 
 ```bibtex
 @inproceedings{FAGEL,
-  title={FAGEL: Fast and Accurate Graph Ensemble Learning using Staged Training and Diversified Sampling},
-  author={Jiajun Shen and Yufei Jin and Xingquan Zhu},
-  booktitle={European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD)},
+  title     = {FAGEL: Fast and Accurate Graph Ensemble Learning using Staged Training and Diversified Sampling},
+  author    = {Jiajun Shen and Yufei Jin and Xingquan Zhu},
+  booktitle = {European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD)},
   year      = {2026},
   publisher = {Springer},
   address   = {Naples, Italy}
