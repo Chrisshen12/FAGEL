@@ -24,7 +24,7 @@ You can download Ogb datasets [Ogbn](https://ogb.stanford.edu/docs/nodeprop/)
 If you find this work useful in your research, please cite:
 
 ```bibtex
-@inproceedings{FAGEL,
+@inproceedings{fagel2026ecml,
   title     = {FAGEL: Fast and Accurate Graph Ensemble Learning using Staged Training and Diversified Sampling},
   author    = {Jiajun Shen and Yufei Jin and Xingquan Zhu},
   booktitle = {European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD)},
