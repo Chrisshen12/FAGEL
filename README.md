@@ -1,7 +1,38 @@
-# FAGEL
-Code of the paper: FAGEL: Fast and Accurate Graph Ensemble Learning using Staged Training and Diversified Sampling
-The camera-ready paper for ECML PKDD 2026 can be found at: 
+# FAGEL: Fast and Accurate Graph Ensemble Learning
 
+This repository contains the official implementation of **FAGEL**, an efficient graph ensemble learning framework for large-scale graph learning.
+
+> **Paper:** [Fast and Accurate Graph Ensemble Learning using Staged Training and Diversified Sampling](#)  
+> **Authors:** Jiajun Shen, Yufei Jin, Xingquan Zhu
+
+---
+The camera-ready paper for ECML PKDD 2026 can be found at: 
+## Overview
+
+Graph Neural Networks (GNNs) have become an effective approach for learning on large-scale graph data. However, conventional GNN ensemble methods require training multiple models independently, resulting in substantial computational and memory costs.
+
+**FAGEL (Fast and Accurate Graph Ensemble Learning)** addresses this challenge by generating diverse GNN models within a **single training pipeline**, avoiding repetitive training from scratch.
+
+FAGEL combines three key components:
+
+1. **Staged Epoch Training**  
+   Trains a GNN using a fixed sampling configuration until the validation performance reaches a plateau.
+
+2. **Structured Sampling Diversification**  
+   Continues training with varied neighborhood sampling configurations by changing hop depth and neighbor size, enabling the model to capture complementary multi-scale graph structures.
+
+3. **Residual Weighted Ensemble Aggregation**  
+   Selects the best-performing models during training and combines their predictions using an adaptive residual weighted ensemble strategy.
+
+---
+## Method
+
+The overall FAGEL framework consists of two training stages:
+
+![FAGEL Framework](fagel_framework.pdf)
+
+FAGEL first trains a GNN using a fixed sampling configuration and then
+introduces structured sampling diversification to generate diverse models.
 ## Requirements
 
 #### 1. Neural network libraries for GNNs
