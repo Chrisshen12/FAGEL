@@ -51,6 +51,30 @@ These datasets include four medium-scale datasets. Please download them from pyt
 You can download Ogb datasets [Ogbn](https://ogb.stanford.edu/docs/nodeprop/)
 
 ---
+## Repository Structure
+
+| File / Directory | Description |
+|---|---|
+| `train.py` | Main training script for FAGEL |
+| `model.py` | GNN backbone implementations, including GCN and GraphSAGE |
+| `dataset.py` | Dataset files and preprocessing utilities |
+| `README.md` | Project documentation |
+
+---
+
+## Training
+
+### 1. Train FAGEL
+
+```bash
+python train.py \
+    --dataset reddit \
+    --batch_size 0.1 \
+    --hop 2 \
+    --neighbors 10 \
+    --hop2 3 \
+    --neighbors2 5 \
+    --cycle 1
 ## Citation
 
 If you find this work useful in your research, please cite:
