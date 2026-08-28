@@ -75,6 +75,9 @@ python train.py
     --hop2 3 
     --neighbors2 5 
     --cycle 1
+
+---
+
 ## Citation
 
 If you find this work useful in your research, please cite:
