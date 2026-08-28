@@ -67,13 +67,13 @@ You can download Ogb datasets [Ogbn](https://ogb.stanford.edu/docs/nodeprop/)
 ### 1. Train FAGEL
 
 ```bash
-python train.py \
-    --dataset reddit \
-    --batch_size 0.1 \
-    --hop 2 \
-    --neighbors 10 \
-    --hop2 3 \
-    --neighbors2 5 \
+python train.py 
+    --dataset reddit 
+    --batch_size 0.1 
+    --hop 2 
+    --neighbors 10 
+    --hop2 3 
+    --neighbors2 5 
     --cycle 1
 ## Citation
 
