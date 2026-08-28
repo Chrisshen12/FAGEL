@@ -29,7 +29,7 @@ FAGEL combines three key components:
 
 The overall FAGEL framework consists of two training stages:
 
-![FAGEL Framework](fagel_framework.pdf)
+![FAGEL Framework](FAGEL_framework.pdf)
 
 FAGEL first trains a GNN using a fixed sampling configuration and then
 introduces structured sampling diversification to generate diverse models.
