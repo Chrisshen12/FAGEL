@@ -31,8 +31,9 @@ The overall FAGEL framework consists of two training stages:
 
 ![FAGEL Framework](FAGEL_framework.pdf)
 
-FAGEL first trains a GNN using a fixed sampling configuration and then
-introduces structured sampling diversification to generate diverse models.
+Stage 1: The GNN is trained with mini-batch neighbor sampling under an initial sampling configuration until the validation performance reaches a plateau for t epochs. 
+Stage 2: The sampler is switched to alternative configurations for c epochs to inject embedding diversity, and the best models are selected based on validation performance. 
+The selected models are combined using a residual weighted ensemble to produce the final prediction.
 ## Requirements
 
 #### 1. Neural network libraries for GNNs
