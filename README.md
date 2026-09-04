@@ -2,11 +2,7 @@
 
 This repository contains the official implementation of **FAGEL**, an efficient graph ensemble learning framework for large-scale graph learning.
 
-> **Paper:** [Fast and Accurate Graph Ensemble Learning using Staged Training and Diversified Sampling](#)  
-> **Authors:** Jiajun Shen, Yufei Jin, Xingquan Zhu
-
----
-The camera-ready paper for ECML PKDD 2026 can be found at: 
+J. Shen, Y. Jin and X. Zhu, "Fast and Accurate Graph Ensemble Learning using Staged Training and Diversified Sampling," *European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD)*, 2026.
 ## Overview
 
 Graph Neural Networks (GNNs) have become an effective approach for learning on large-scale graph data. However, conventional GNN ensemble methods require training multiple models independently, resulting in substantial computational and memory costs.
